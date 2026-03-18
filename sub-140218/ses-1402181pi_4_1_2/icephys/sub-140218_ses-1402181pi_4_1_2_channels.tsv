@@ -1,0 +1,2 @@
+name	electrode_name	type	units	sampling_frequency	stream_id	recording_mode
+Micropipette	Micropipette	IM	V	20000.0	Vm_0,Vm_1,Vm_10,Vm_11,Vm_12,Vm_13,Vm_14,Vm_15,Vm_16,Vm_17,Vm_18,Vm_19,Vm_2,Vm_20,Vm_21,Vm_22,Vm_23,Vm_24,Vm_3,Vm_4,Vm_5,Vm_6,Vm_7,Vm_8,Vm_9	current-clamp

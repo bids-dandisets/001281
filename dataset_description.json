@@ -1,0 +1,19 @@
+{
+    "Name": "Electrophysiology and Morphology of Human Cortical Supragranular Pyramidal Cells in a Wide Age Range",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Patch-clamp recordings of Layer 2/3 pyramidal cells in the human neocortex from various life stages. Data comes from Gabor Tamas Lab (HUN-REN-SZTE Research Group for Cortical Microcircuits; University of Szeged, Hungary).",
+    "DatasetType": "raw",
+    "Authors": [
+        "Sz\u00f6ts, Ildik\u00f3"
+    ],
+    "License": "CC0-1.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
