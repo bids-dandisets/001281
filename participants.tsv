@@ -1,99 +1,99 @@
-participant_id	species	sex
-sub-131008	Homo sapiens	F
-sub-131113	Homo sapiens	M
-sub-140202	Homo sapiens	F
-sub-140207	Homo sapiens	F
-sub-140218	Homo sapiens	M
-sub-140304	Homo sapiens	F
-sub-140312	Homo sapiens	F
-sub-140408	Homo sapiens	F
-sub-140410	Homo sapiens	M
-sub-140416	Homo sapiens	F
-sub-140429	Homo sapiens	F
-sub-141029	Homo sapiens	F
-sub-141128	Homo sapiens	F
-sub-150319	Homo sapiens	M
-sub-150403	Homo sapiens	M
-sub-150414	Homo sapiens	M
-sub-150415	Homo sapiens	M
-sub-150623	Homo sapiens	F
-sub-150625	Homo sapiens	F
-sub-150630	Homo sapiens	M
-sub-150915	Homo sapiens	F
-sub-150917	Homo sapiens	F
-sub-151015	Homo sapiens	M
-sub-160303	Homo sapiens	F
-sub-160304	Homo sapiens	F
-sub-160811	Homo sapiens	F
-sub-160812	Homo sapiens	F
-sub-160825	Homo sapiens	F
-sub-161202	Homo sapiens	F
-sub-170516	Homo sapiens	M
-sub-170823	Homo sapiens	F
-sub-170915	Homo sapiens	F
-sub-171102	Homo sapiens	F
-sub-171215	Homo sapiens	F
-sub-180214	Homo sapiens	M
-sub-180216	Homo sapiens	F
-sub-180822	Homo sapiens	F
-sub-180928	Homo sapiens	M
-sub-181017	Homo sapiens	M
-sub-181109	Homo sapiens	F
-sub-181214	Homo sapiens	F
-sub-190329	Homo sapiens	M
-sub-190813	Homo sapiens	M
-sub-190904	Homo sapiens	M
-sub-191016	Homo sapiens	F
-sub-191128	Homo sapiens	F
-sub-191129	Homo sapiens	F
-sub-191206	Homo sapiens	M
-sub-191212	Homo sapiens	F
-sub-191213	Homo sapiens	M
-sub-200122	Homo sapiens	F
-sub-200123	Homo sapiens	F
-sub-200211	Homo sapiens	F
-sub-200218	Homo sapiens	F
-sub-200219	Homo sapiens	M
-sub-200227	Homo sapiens	F
-sub-200303	Homo sapiens	F
-sub-200520	Homo sapiens	M
-sub-200521	Homo sapiens	M
-sub-200603	Homo sapiens	F
-sub-200604	Homo sapiens	M
-sub-200609	Homo sapiens	F
-sub-200619	Homo sapiens	F
-sub-200625	Homo sapiens	F
-sub-200702	Homo sapiens	F
-sub-200703	Homo sapiens	M
-sub-200708	Homo sapiens	M
-sub-200729	Homo sapiens	M
-sub-200825	Homo sapiens	F
-sub-200828	Homo sapiens	M
-sub-200925	Homo sapiens	F
-sub-201007	Homo sapiens	M
-sub-201009	Homo sapiens	F
-sub-201013	Homo sapiens	F
-sub-201016	Homo sapiens	M
-sub-201201	Homo sapiens	M
-sub-201202	Homo sapiens	M
-sub-210115	Homo sapiens	F
-sub-210210	Homo sapiens	F
-sub-210512	Homo sapiens	F
-sub-210609	Homo sapiens	F
-sub-210615	Homo sapiens	M
-sub-210827	Homo sapiens	M
-sub-211021	Homo sapiens	M
-sub-211214	Homo sapiens	M
-sub-220125	Homo sapiens	F
-sub-220218	Homo sapiens	M
-sub-220303	Homo sapiens	F
-sub-220505	Homo sapiens	M
-sub-220512	Homo sapiens	M
-sub-220622	Homo sapiens	M
-sub-220812	Homo sapiens	F
-sub-220830	Homo sapiens	M
-sub-230125	Homo sapiens	F
-sub-230418	Homo sapiens	M
-sub-230420	Homo sapiens	F
-sub-230817	Homo sapiens	F
-sub-230822	Homo sapiens	M
+participant_id	original_participant_id	species	sex
+sub-131008	sub-131008	Homo sapiens	F
+sub-131113	sub-131113	Homo sapiens	M
+sub-140202	sub-140202	Homo sapiens	F
+sub-140207	sub-140207	Homo sapiens	F
+sub-140218	sub-140218	Homo sapiens	M
+sub-140304	sub-140304	Homo sapiens	F
+sub-140312	sub-140312	Homo sapiens	F
+sub-140408	sub-140408	Homo sapiens	F
+sub-140410	sub-140410	Homo sapiens	M
+sub-140416	sub-140416	Homo sapiens	F
+sub-140429	sub-140429	Homo sapiens	F
+sub-141029	sub-141029	Homo sapiens	F
+sub-141128	sub-141128	Homo sapiens	F
+sub-150319	sub-150319	Homo sapiens	M
+sub-150403	sub-150403	Homo sapiens	M
+sub-150414	sub-150414	Homo sapiens	M
+sub-150415	sub-150415	Homo sapiens	M
+sub-150623	sub-150623	Homo sapiens	F
+sub-150625	sub-150625	Homo sapiens	F
+sub-150630	sub-150630	Homo sapiens	M
+sub-150915	sub-150915	Homo sapiens	F
+sub-150917	sub-150917	Homo sapiens	F
+sub-151015	sub-151015	Homo sapiens	M
+sub-160303	sub-160303	Homo sapiens	F
+sub-160304	sub-160304	Homo sapiens	F
+sub-160811	sub-160811	Homo sapiens	F
+sub-160812	sub-160812	Homo sapiens	F
+sub-160825	sub-160825	Homo sapiens	F
+sub-161202	sub-161202	Homo sapiens	F
+sub-170516	sub-170516	Homo sapiens	M
+sub-170823	sub-170823	Homo sapiens	F
+sub-170915	sub-170915	Homo sapiens	F
+sub-171102	sub-171102	Homo sapiens	F
+sub-171215	sub-171215	Homo sapiens	F
+sub-180214	sub-180214	Homo sapiens	M
+sub-180216	sub-180216	Homo sapiens	F
+sub-180822	sub-180822	Homo sapiens	F
+sub-180928	sub-180928	Homo sapiens	M
+sub-181017	sub-181017	Homo sapiens	M
+sub-181109	sub-181109	Homo sapiens	F
+sub-181214	sub-181214	Homo sapiens	F
+sub-190329	sub-190329	Homo sapiens	M
+sub-190813	sub-190813	Homo sapiens	M
+sub-190904	sub-190904	Homo sapiens	M
+sub-191016	sub-191016	Homo sapiens	F
+sub-191128	sub-191128	Homo sapiens	F
+sub-191129	sub-191129	Homo sapiens	F
+sub-191206	sub-191206	Homo sapiens	M
+sub-191212	sub-191212	Homo sapiens	F
+sub-191213	sub-191213	Homo sapiens	M
+sub-200122	sub-200122	Homo sapiens	F
+sub-200123	sub-200123	Homo sapiens	F
+sub-200211	sub-200211	Homo sapiens	F
+sub-200218	sub-200218	Homo sapiens	F
+sub-200219	sub-200219	Homo sapiens	M
+sub-200227	sub-200227	Homo sapiens	F
+sub-200303	sub-200303	Homo sapiens	F
+sub-200520	sub-200520	Homo sapiens	M
+sub-200521	sub-200521	Homo sapiens	M
+sub-200603	sub-200603	Homo sapiens	F
+sub-200604	sub-200604	Homo sapiens	M
+sub-200609	sub-200609	Homo sapiens	F
+sub-200619	sub-200619	Homo sapiens	F
+sub-200625	sub-200625	Homo sapiens	F
+sub-200702	sub-200702	Homo sapiens	F
+sub-200703	sub-200703	Homo sapiens	M
+sub-200708	sub-200708	Homo sapiens	M
+sub-200729	sub-200729	Homo sapiens	M
+sub-200825	sub-200825	Homo sapiens	F
+sub-200828	sub-200828	Homo sapiens	M
+sub-200925	sub-200925	Homo sapiens	F
+sub-201007	sub-201007	Homo sapiens	M
+sub-201009	sub-201009	Homo sapiens	F
+sub-201013	sub-201013	Homo sapiens	F
+sub-201016	sub-201016	Homo sapiens	M
+sub-201201	sub-201201	Homo sapiens	M
+sub-201202	sub-201202	Homo sapiens	M
+sub-210115	sub-210115	Homo sapiens	F
+sub-210210	sub-210210	Homo sapiens	F
+sub-210512	sub-210512	Homo sapiens	F
+sub-210609	sub-210609	Homo sapiens	F
+sub-210615	sub-210615	Homo sapiens	M
+sub-210827	sub-210827	Homo sapiens	M
+sub-211021	sub-211021	Homo sapiens	M
+sub-211214	sub-211214	Homo sapiens	M
+sub-220125	sub-220125	Homo sapiens	F
+sub-220218	sub-220218	Homo sapiens	M
+sub-220303	sub-220303	Homo sapiens	F
+sub-220505	sub-220505	Homo sapiens	M
+sub-220512	sub-220512	Homo sapiens	M
+sub-220622	sub-220622	Homo sapiens	M
+sub-220812	sub-220812	Homo sapiens	F
+sub-220830	sub-220830	Homo sapiens	M
+sub-230125	sub-230125	Homo sapiens	F
+sub-230418	sub-230418	Homo sapiens	M
+sub-230420	sub-230420	Homo sapiens	F
+sub-230817	sub-230817	Homo sapiens	F
+sub-230822	sub-230822	Homo sapiens	M

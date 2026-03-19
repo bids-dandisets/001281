@@ -1,6 +1,6 @@
-session_id
-ses-1811091lr+2+1+2
-ses-1811091lr+4+2+2
-ses-1811091og+1+1+2
-ses-1811091og+2+2+2
-ses-1811092lr+1+2+2
+session_id	original_session_id
+ses-1811091lr+2+1+2	ses-1811091lr_2_1_2
+ses-1811091lr+4+2+2	ses-1811091lr_4_2_2
+ses-1811091og+1+1+2	ses-1811091og_1_1_2
+ses-1811091og+2+2+2	ses-1811091og_2_2_2
+ses-1811092lr+1+2+2	ses-1811092lr_1_2_2

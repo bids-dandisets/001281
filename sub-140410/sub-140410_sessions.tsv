@@ -1,7 +1,7 @@
-session_id
-ses-1404101ls+1+2+1
-ses-1404101ls+2+1+1
-ses-1404101mg+2+2+2
-ses-1404102ls+1+1+1
-ses-1404102mg+1+2+2
-ses-1404103mg+3+1+2
+session_id	original_session_id
+ses-1404101ls+1+2+1	ses-1404101ls_1_2_1
+ses-1404101ls+2+1+1	ses-1404101ls_2_1_1
+ses-1404101mg+2+2+2	ses-1404101mg_2_2_2
+ses-1404102ls+1+1+1	ses-1404102ls_1_1_1
+ses-1404102mg+1+2+2	ses-1404102mg_1_2_2
+ses-1404103mg+3+1+2	ses-1404103mg_3_1_2

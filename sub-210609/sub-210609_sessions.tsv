@@ -1,6 +1,6 @@
-session_id
-ses-2106091mg+1+1+2
-ses-2106091si+1+1+1
-ses-2106091si+3+1+1
-ses-2106092si+5+1+1
-ses-2106092sj+4+1+1
+session_id	original_session_id
+ses-2106091mg+1+1+2	ses-2106091mg_1_1_2
+ses-2106091si+1+1+1	ses-2106091si_1_1_1
+ses-2106091si+3+1+1	ses-2106091si_3_1_1
+ses-2106092si+5+1+1	ses-2106092si_5_1_1
+ses-2106092sj+4+1+1	ses-2106092sj_4_1_1

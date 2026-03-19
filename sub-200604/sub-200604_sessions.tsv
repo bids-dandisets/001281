@@ -1,4 +1,4 @@
-session_id
-ses-2006041mg+1+1+2
-ses-2006041si+2+1+4
-ses-2006041si+3+2+4
+session_id	original_session_id
+ses-2006041mg+1+1+2	ses-2006041mg_1_1_2
+ses-2006041si+2+1+4	ses-2006041si_2_1_4
+ses-2006041si+3+2+4	ses-2006041si_3_2_4

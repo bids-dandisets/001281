@@ -1,5 +1,5 @@
-session_id
-ses-1711021lr+2+2+2
-ses-1711021lr+3+2+2
-ses-1711021og+2+1+1
-ses-1711021og+3+4+1
+session_id	original_session_id
+ses-1711021lr+2+2+2	ses-1711021lr_2_2_2
+ses-1711021lr+3+2+2	ses-1711021lr_3_2_2
+ses-1711021og+2+1+1	ses-1711021og_2_1_1
+ses-1711021og+3+4+1	ses-1711021og_3_4_1

@@ -1,7 +1,7 @@
-session_id
-ses-2304201si+1+2+1
-ses-2304201si+2+2+1
-ses-2304201si+3+1+1
-ses-2304201si+4+1+1
-ses-2304201si+5+1+1
-ses-2304201si+6+1+1
+session_id	original_session_id
+ses-2304201si+1+2+1	ses-2304201si_1_2_1
+ses-2304201si+2+2+1	ses-2304201si_2_2_1
+ses-2304201si+3+1+1	ses-2304201si_3_1_1
+ses-2304201si+4+1+1	ses-2304201si_4_1_1
+ses-2304201si+5+1+1	ses-2304201si_5_1_1
+ses-2304201si+6+1+1	ses-2304201si_6_1_1

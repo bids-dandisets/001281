@@ -1,5 +1,5 @@
-session_id
-ses-1310081kg+1+1+4
-ses-1310081kg+4+1+3
-ses-1310083mg+2+1+2
-ses-1310084mg+2+1+2
+session_id	original_session_id
+ses-1310081kg+1+1+4	ses-1310081kg_1_1_4
+ses-1310081kg+4+1+3	ses-1310081kg_4_1_3
+ses-1310083mg+2+1+2	ses-1310083mg_2_1_2
+ses-1310084mg+2+1+2	ses-1310084mg_2_1_2

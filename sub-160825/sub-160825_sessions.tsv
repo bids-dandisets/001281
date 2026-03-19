@@ -1,7 +1,7 @@
-session_id
-ses-1608251mg+2+3+2
-ses-1608251mg+9+4+2
-ses-1608253rm+10+1+4
-ses-1608253rm+14+1+3
-ses-1608253rm+4+1+4
-ses-1608253rm+5+2+4
+session_id	original_session_id
+ses-1608251mg+2+3+2	ses-1608251mg_2_3_2
+ses-1608251mg+9+4+2	ses-1608251mg_9_4_2
+ses-1608253rm+10+1+4	ses-1608253rm_10_1_4
+ses-1608253rm+14+1+3	ses-1608253rm_14_1_3
+ses-1608253rm+4+1+4	ses-1608253rm_4_1_4
+ses-1608253rm+5+2+4	ses-1608253rm_5_2_4

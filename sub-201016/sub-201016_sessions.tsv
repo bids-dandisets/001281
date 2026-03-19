@@ -1,4 +1,4 @@
-session_id
-ses-2010162si+1+1+1
-ses-2010163fs+1+2+2
-ses-2010163fs+3+1+2
+session_id	original_session_id
+ses-2010162si+1+1+1	ses-2010162si_1_1_1
+ses-2010163fs+1+2+2	ses-2010163fs_1_2_2
+ses-2010163fs+3+1+2	ses-2010163fs_3_1_2
