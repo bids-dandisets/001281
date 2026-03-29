@@ -1,0 +1,3713 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "UNKNOWN_BIDS_VERSION",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.dataset.UnknownVersion",
+        "severity": "ignore"
+      },
+      {
+        "code": "README_FILE_MISSING",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.ReadmeFileMissing",
+        "severity": "ignore"
+      },
+      {
+        "code": "TOO_FEW_AUTHORS",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.TooFewAuthors",
+        "severity": "ignore"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "location": "/dataset_description.json",
+        "severity": "warning",
+        "rule": "rules.dataset_metadata.dataset_description",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-171215/sub-171215_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1712151og_2_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-171215/ses-1712151og_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-220505/sub-220505_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2205051pz_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220505/ses-2205051tm_7_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220505/ses-2205051tm_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220505/ses-2205051tm_6_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220505/ses-2205051pz_3_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220505/ses-2205051tm_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220505/ses-2205051tm_2_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220505/ses-2205051pz_4_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220505/ses-2205051pz_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-191212/sub-191212_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1912121lr_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191212/ses-1912121lr_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150415/sub-150415_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1504151mg_3_3_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150415/ses-1504151oa_1_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150415/ses-1504151rm_2_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150415/ses-1504152rm_3_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150415/ses-1504151rm_3_2_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150415/ses-1504153mg_1_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150415/ses-1504151rm_1_2_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150415/ses-1504151mg_3_3_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-181214/sub-181214_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1812141mg_1_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-181214/ses-1812141mg_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150915/sub-150915_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1509151mg_2_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150915/ses-1509151mg_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200619/sub-200619_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2006191mg_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200619/ses-2006191mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200619/ses-2006191mg_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200619/ses-2006191oa_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200619/ses-2006192mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200619/ses-2006191oa_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-160303/sub-160303_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1603031oa_1_4_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160303/ses-1603033mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160303/ses-1603031oa_1_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160303/ses-1603032mg_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140304/sub-140304_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1403041mg_2_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403042mg_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403042mg_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403042rm_6_2_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403041rm_1_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403042mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403041mg_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403041mg_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403042rm_4_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140304/ses-1403041rm_4_1_3/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-160825/sub-160825_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1608251mg_2_3_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160825/ses-1608253rm_4_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160825/ses-1608251mg_9_4_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160825/ses-1608253rm_10_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160825/ses-1608253rm_14_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160825/ses-1608253rm_5_2_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160825/ses-1608251mg_2_3_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-170516/sub-170516_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1705161kb_1_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-170516/ses-1705161kb_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-170516/ses-1705161kb_1_8_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-180822/sub-180822_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1808221fs_3_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180822/ses-1808223lr_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180822/ses-1808221fs_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180822/ses-1808223lr_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140416/sub-140416_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1404162mg_3_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140416/ses-1404164mg_4_3_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140416/ses-1404162mg_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200609/sub-200609_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2006091si_1_2_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200609/ses-2006091si_2_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200609/ses-2006092si_1_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200609/ses-2006091si_1_2_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200609/ses-2006091si_5_2_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200609/ses-2006092si_2_1_4/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200825/sub-200825_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2008251oa_3_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200825/ses-2008251oa_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200825/ses-2008251oa_4_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-160811/sub-160811_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1608111mg_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160811/ses-1608112og_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160811/ses-1608112og_5_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160811/ses-1608112og_6_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160811/ses-1608111mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160811/ses-1608111rm_3_1_4/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-191016/sub-191016_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1910162tm_1_3_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191016/ses-1910162tm_1_3_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-191213/sub-191213_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1912131og_1_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191213/ses-1912131tm_1_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191213/ses-1912133og_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191213/ses-1912132tm_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191213/ses-1912131og_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191213/ses-1912132tm_6_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191213/ses-1912131tm_4_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-210615/sub-210615_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2106151si_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210615/ses-2106151si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210615/ses-2106151si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210615/ses-2106151si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-220622/sub-220622_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2206221si_1_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220622/ses-2206221si_3_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220622/ses-2206221si_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200520/sub-200520_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2005201lr_1_1_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200520/ses-2005201lr_1_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200520/ses-2005201lr_2_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200520/ses-2005201mg_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-220303/sub-220303_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2203031si_3_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220303/ses-2203032si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220303/ses-2203031si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-190813/sub-190813_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1908131tm_1_3_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190813/ses-1908131tm_1_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190813/ses-1908132tm_2_4_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-180214/sub-180214_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1802141rm_13_4_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180214/ses-1802141rm_13_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180214/ses-1802141rm_15_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180214/ses-1802141rm_3_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180214/ses-1802142og_1_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180214/ses-1802141rm_14_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-201009/sub-201009_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2010091si_3_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201009/ses-2010093si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201009/ses-2010093si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201009/ses-2010092tm_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201009/ses-2010091si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201009/ses-2010093si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201009/ses-2010093si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-220812/sub-220812_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2208121si_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208123si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208121si_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208121si_5_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208123si_3_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208121si_2_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208122si_3_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208122si_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208121si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208122si_1_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208123si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208121si_7_6_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208122si_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208122si_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208123si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208121si_8_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220812/ses-2208122si_8_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-151015/sub-151015_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1510151og_2_5_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-151015/ses-1510151og_2_5_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-151015/ses-1510152mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-151015/ses-1510153mg_2_6_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-151015/ses-1510151og_3_2_4/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140218/sub-140218_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1402181mg_2_2_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402181mg_3_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402181pi_6_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402183ls_2_5_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402182rm_9_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402181mg_2_7_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402182mg_7_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402181pi_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402181pi_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402182mg_8_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402182pi_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140218/ses-1402181mg_2_2_4/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150414/sub-150414_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1504141mg_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150414/ses-1504141rm_1_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150414/ses-1504141rm_3_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150414/ses-1504141mg_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150414/ses-1504141mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150414/ses-1504141mg_1_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150414/ses-1504141mg_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150414/ses-1504142mg_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150414/ses-1504142mg_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-191129/sub-191129_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1911291mg_1_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911292lr_2_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911292mg_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911291mg_5_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911291oa_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911292lr_5_2_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911292oa_3_3_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911291mg_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911291mg_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911291tm_6_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911291mg_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911292oa_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911292lr_6_3_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191129/ses-1911292oa_1_2_3/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-230125/sub-230125_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2301251si_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230125/ses-2301251si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230125/ses-2301251si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-141128/sub-141128_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1411281mg_2_1_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141128/ses-1411282og_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141128/ses-1411282mg_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141128/ses-1411281mg_2_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141128/ses-1411281rm_2_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141128/ses-1411282oa_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141128/ses-1411281rm_1_5_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141128/ses-1411284og_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200604/sub-200604_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2006041mg_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200604/ses-2006041si_3_2_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200604/ses-2006041si_2_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200604/ses-2006041mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150917/sub-150917_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1509172mg_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150917/ses-1509173mg_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150917/ses-1509172mg_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150917/ses-1509172mg_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200828/sub-200828_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2008281si_3_2_3'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008282tm_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008281sj_3_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008282si_3_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008283si_3_5_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008281tm_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008284si_3_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008281si_4_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008282mg_1_6_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200828/ses-2008281si_3_2_3/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-210512/sub-210512_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2105121si_1_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210512/ses-2105121si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210512/ses-2105121si_5_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210512/ses-2105121si_2_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210512/ses-2105121si_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210512/ses-2105121tm_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-210827/sub-210827_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2108271mg_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210827/ses-2108271mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210827/ses-2108271mg_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140408/sub-140408_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1404081ls_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140408/ses-1404082ls_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140408/ses-1404081ls_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200925/sub-200925_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2009251mg_2_4_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200925/ses-2009251mg_2_4_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140312/sub-140312_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1403121ls_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140312/ses-1403122pi_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140312/ses-1403124pi_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140312/ses-1403121ls_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140312/ses-1403121ls_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140312/ses-1403123pi_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140312/ses-1403121pi_5_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140312/ses-1403122pi_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140312/ses-1403123pi_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150630/sub-150630_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1506301og_1_4_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150630/ses-1506301og_1_4_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150403/sub-150403_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1504031mg_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150403/ses-1504031mg_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-201201/sub-201201_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2012011tm_4_3_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201201/ses-2012011tm_4_3_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200603/sub-200603_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2006031mg_2_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200603/ses-2006032sj_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200603/ses-2006032sj_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200603/ses-2006031si_1_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200603/ses-2006031mg_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200218/sub-200218_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2002184fs_1_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200218/ses-2002184fs_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200211/sub-200211_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2002111og_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200211/ses-2002111og_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200211/ses-2002112og_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200211/ses-2002114fs_5_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200211/ses-2002112og_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200211/ses-2002111og_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200219/sub-200219_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2002191og_1_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200219/ses-2002193og_1_6_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200219/ses-2002193og_2_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200219/ses-2002191og_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200219/ses-2002193og_3_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200219/ses-2002192lr_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200219/ses-2002194fs_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200219/ses-2002191tm_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200219/ses-2002194fs_6_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-230817/sub-230817_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2308171si_2_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308172si_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308171si_9_11_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308172si_7_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308171si_6_10_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308171si_7_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308172si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308171si_8_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308171si_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308172si_5_9_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308171si_4_10_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308172si_3_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308172si_6_11_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230817/ses-2308171si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200521/sub-200521_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2005211mg_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200521/ses-2005211mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200521/ses-2005211mg_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-201007/sub-201007_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2010071fs_1_3_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010072sj_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010071si_1_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010073fs_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010071fs_1_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010073fs_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010071tm_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010073si_2_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010071fs_2_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010073fs_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201007/ses-2010071fs_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140429/sub-140429_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1404291ls_2_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140429/ses-1404291ls_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200708/sub-200708_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2007081tm_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200708/ses-2007081tm_4_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200708/ses-2007081tm_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200708/ses-2007081tm_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200708/ses-200708mg_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140207/sub-140207_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1402071ls_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402071ls_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402071pi_2_4_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402073ls_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402072pi_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402072ls_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402071pi_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402072ls_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402072pi_4_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402071pi_3_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402072mg_3_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402074ls_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402071ls_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140207/ses-1402071pi_4_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-230822/sub-230822_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2308221si_1_3_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308221si_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308221si_4_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308221si_6_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308221si_1_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308222si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308221si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308221si_3_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308222si_5_9_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308222si_3_11_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308221si_7_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230822/ses-2308221si_8_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200702/sub-200702_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2007021si_3_1_3'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200702/ses-2007022tm_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200702/ses-2007021si_3_1_3/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-210210/sub-210210_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2102101si_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210210/ses-2102102si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210210/ses-2102103si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210210/ses-2102102si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210210/ses-2102102si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210210/ses-2102101si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210210/ses-2102102si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210210/ses-2102104si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210210/ses-2102101tm_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140202/sub-140202_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1402023ls_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140202/ses-1402023ls_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-210115/sub-210115_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2101151si_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210115/ses-2101153si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210115/ses-2101151si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210115/ses-2101153si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210115/ses-2101152si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210115/ses-2101151si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210115/ses-2101152si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200227/sub-200227_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2002271mg_4_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200227/ses-2002271mg_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200227/ses-2002271tm_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200227/ses-2002271tm_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200227/ses-2002272fs_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-140410/sub-140410_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1404101ls_1_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140410/ses-1404102mg_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140410/ses-1404103mg_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140410/ses-1404101mg_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140410/ses-1404101ls_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140410/ses-1404102ls_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-140410/ses-1404101ls_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-141029/sub-141029_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1410292kb_1_3_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141029/ses-1410293kb_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141029/ses-1410294kb_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-141029/ses-1410292kb_1_3_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200122/sub-200122_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2001221tm_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200122/ses-2001221tm_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200122/ses-2001221tm_2_3_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-220830/sub-220830_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2208301tm_7_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220830/ses-2208301tm_7_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220830/ses-2208302tm_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-181017/sub-181017_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1810171lr_2_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-181017/ses-1810171lr_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-181017/ses-1810172fs_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-180216/sub-180216_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1802161oa_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180216/ses-1802161oa_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200123/sub-200123_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2001231lr_3_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200123/ses-2001231tm_5_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200123/ses-2001231tm_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200123/ses-2001231lr_3_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200123/ses-2001231tm_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200123/ses-2001231tm_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200123/ses-2001232fs_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200123/ses-2001231tm_6_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200729/sub-200729_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2007291sj_6_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200729/ses-2007291sj_6_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200729/ses-2007292si_1_1_3/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-211214/sub-211214_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2112141lr_1_1_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211214/ses-2112142sj_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211214/ses-2112141si_4_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211214/ses-2112141si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211214/ses-2112141lr_1_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211214/ses-2112141tm_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-210609/sub-210609_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2106091mg_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210609/ses-2106091mg_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210609/ses-2106092sj_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210609/ses-2106091si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210609/ses-2106091si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-210609/ses-2106092si_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-191206/sub-191206_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1912061og_1_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912061og_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912064fs_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912065fs_2_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912063og_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912062og_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912064og_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912062si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912061si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191206/ses-1912061og_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150625/sub-150625_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1506251mg_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150625/ses-1506252og_1_7_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150625/ses-1506251mg_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150625/ses-1506253mg_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150625/ses-1506251og_1_5_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150625/ses-1506252mg_5_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-220512/sub-220512_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2205121pz_5_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121tm_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121pz_5_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121tm_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205122si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121tm_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121tm_6_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121si_7_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121si_6_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121si_6_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121si_7_3_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121pz_6_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220512/ses-2205121si_10_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-171102/sub-171102_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1711021lr_2_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-171102/ses-1711021og_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-171102/ses-1711021lr_3_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-171102/ses-1711021og_3_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-171102/ses-1711021lr_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-201013/sub-201013_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2010131si_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201013/ses-2010131si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201013/ses-2010131si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201013/ses-2010131si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201013/ses-2010131si_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-190329/sub-190329_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1903291mg_1_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190329/ses-1903291mg_2_3_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190329/ses-1903291mg_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-170915/sub-170915_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1709151og_3_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-170915/ses-1709151og_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-170915/ses-1709151og_4_4_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-131113/sub-131113_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1311131ls_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131113/ses-1311131ls_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131113/ses-1311133ls_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131113/ses-1311131ls_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131113/ses-1311132ls_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131113/ses-1311134ls_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131113/ses-1311131ls_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131113/ses-1311133ls_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131113/ses-1311131mg_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-201016/sub-201016_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2010162si_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201016/ses-2010162si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201016/ses-2010163fs_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201016/ses-2010163fs_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-181109/sub-181109_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1811091lr_2_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-181109/ses-1811091og_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-181109/ses-1811091lr_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-181109/ses-1811091og_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-181109/ses-1811092lr_1_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-181109/ses-1811091lr_4_2_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-170823/sub-170823_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1708232og_7_3_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-170823/ses-1708232og_7_3_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-220218/sub-220218_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2202181pz_10_1_3'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181pz_10_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181pz_6_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181si_13_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202182sj_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181pz_3_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181tm_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181tm_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181sj_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181si_12_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181tm_10_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181si_10_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181pz_9_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181si_7_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181tm_8_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181sj_4_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181pz_7_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181tm_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181si_6_5_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181sj_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181tm_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181si_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220218/ses-2202181si_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200625/sub-200625_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2006251mg_1_33_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200625/ses-2006252mg_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200625/ses-2006251mg_1_33_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200625/ses-2006251mg_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200625/ses-2006251mg_1_6_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-191128/sub-191128_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1911281lr_1_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191128/ses-1911281lr_2_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-191128/ses-1911281lr_1_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-220125/sub-220125_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2201251si_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-220125/ses-2201251si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-160812/sub-160812_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1608121oa_4_13_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160812/ses-1608121oa_4_13_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160812/ses-1608123oa_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200303/sub-200303_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2003031og_2_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200303/ses-2003031og_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200303/ses-2003031tm_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-230420/sub-230420_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2304201si_1_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230420/ses-2304201si_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230420/ses-2304201si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230420/ses-2304201si_2_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230420/ses-2304201si_6_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230420/ses-2304201si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230420/ses-2304201si_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-161202/sub-161202_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1612022rm_6_1_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-161202/ses-1612022rm_6_1_4/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-200703/sub-200703_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2007031mg_2_4_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200703/ses-2007031mg_2_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200703/ses-2007032si_2_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-200703/ses-200703si_1_1_3/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-211021/sub-211021_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2110211lr_2_1_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211021/ses-2110211lr_2_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211021/ses-2110211sj_7_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211021/ses-2110211si_3_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-211021/ses-2110211sj_8_3_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150623/sub-150623_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1506231mg_1_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150623/ses-1506231mg_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150623/ses-1506233mg_2_4_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150623/ses-1506233mg_3_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150623/ses-1506232mg_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-190904/sub-190904_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1909041fs_4_2_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190904/ses-1909041tm_5_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190904/ses-1909041tm_4_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190904/ses-1909041tm_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190904/ses-1909041fs_4_2_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-190904/ses-1909041tm_6_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-230418/sub-230418_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2304181si_2_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304182si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304182si_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304182si_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304181si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304181si_8_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304181si_6_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304181si_9_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304182si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304181si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304182si_6_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-230418/ses-2304181si_5_1_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-131008/sub-131008_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1310081kg_1_1_4'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131008/ses-1310081kg_1_1_4/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131008/ses-1310083mg_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131008/ses-1310081kg_4_1_3/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-131008/ses-1310084mg_2_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-150319/sub-150319_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1503191mg_1_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-150319/ses-1503191mg_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-160304/sub-160304_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1603041oa_5_2_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160304/ses-1603041og_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-160304/ses-1603041oa_5_2_1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-180928/sub-180928_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-1809282lr_3_1_2'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-180928/ses-1809282lr_3_1_2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-201202/sub-201202_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-2012021si_5_1_1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201202/ses-2012022si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201202/ses-2012023si_3_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201202/ses-2012022tm_1_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201202/ses-2012023si_4_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201202/ses-2012023si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201202/ses-2012022si_2_1_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201202/ses-2012022si_1_2_1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-201202/ses-2012021si_5_1_1/",
+        "severity": "error"
+      }
+    ],
+    "codeMessages": {
+      "UNKNOWN_BIDS_VERSION": "The BIDSVersion field of 'dataset_description.json' does not match a known release.\nThe BIDS Schema used for validation may be out of date.\n",
+      "README_FILE_MISSING": "The recommended file /README is missing.\nSee Section 03 (Modality agnostic files) of the BIDS specification.\n",
+      "TOO_FEW_AUTHORS": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "TSV_VALUE_INCORRECT_TYPE": "A value in a column did not match the acceptable type for that column headers specified format.",
+      "NOT_INCLUDED": "Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a \".bidsignore\" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "171215",
+      "220505",
+      "191212",
+      "150415",
+      "181214",
+      "150915",
+      "200619",
+      "160303",
+      "140304",
+      "160825",
+      "170516",
+      "180822",
+      "140416",
+      "200609",
+      "200825",
+      "160811",
+      "191016",
+      "191213",
+      "210615",
+      "220622",
+      "200520",
+      "220303",
+      "190813",
+      "180214",
+      "201009",
+      "220812",
+      "151015",
+      "140218",
+      "150414",
+      "191129",
+      "230125",
+      "141128",
+      "200604",
+      "150917",
+      "200828",
+      "210512",
+      "210827",
+      "140408",
+      "200925",
+      "140312",
+      "150630",
+      "150403",
+      "201201",
+      "200603",
+      "200218",
+      "200211",
+      "200219",
+      "230817",
+      "200521",
+      "201007",
+      "140429",
+      "200708",
+      "140207",
+      "230822",
+      "200702",
+      "210210",
+      "140202",
+      "210115",
+      "200227",
+      "140410",
+      "141029",
+      "200122",
+      "220830",
+      "181017",
+      "180216",
+      "200123",
+      "200729",
+      "211214",
+      "210609",
+      "191206",
+      "150625",
+      "220512",
+      "171102",
+      "201013",
+      "190329",
+      "170915",
+      "131113",
+      "201016",
+      "181109",
+      "170823",
+      "220218",
+      "200625",
+      "191128",
+      "220125",
+      "160812",
+      "200303",
+      "230420",
+      "161202",
+      "200703",
+      "211021",
+      "150623",
+      "190904",
+      "230418",
+      "131008",
+      "150319",
+      "160304",
+      "180928",
+      "201202"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "131008",
+        "sex": "F"
+      },
+      {
+        "participantId": "131113",
+        "sex": "M"
+      },
+      {
+        "participantId": "140202",
+        "sex": "F"
+      },
+      {
+        "participantId": "140207",
+        "sex": "F"
+      },
+      {
+        "participantId": "140218",
+        "sex": "M"
+      },
+      {
+        "participantId": "140304",
+        "sex": "F"
+      },
+      {
+        "participantId": "140312",
+        "sex": "F"
+      },
+      {
+        "participantId": "140408",
+        "sex": "F"
+      },
+      {
+        "participantId": "140410",
+        "sex": "M"
+      },
+      {
+        "participantId": "140416",
+        "sex": "F"
+      },
+      {
+        "participantId": "140429",
+        "sex": "F"
+      },
+      {
+        "participantId": "141029",
+        "sex": "F"
+      },
+      {
+        "participantId": "141128",
+        "sex": "F"
+      },
+      {
+        "participantId": "150319",
+        "sex": "M"
+      },
+      {
+        "participantId": "150403",
+        "sex": "M"
+      },
+      {
+        "participantId": "150414",
+        "sex": "M"
+      },
+      {
+        "participantId": "150415",
+        "sex": "M"
+      },
+      {
+        "participantId": "150623",
+        "sex": "F"
+      },
+      {
+        "participantId": "150625",
+        "sex": "F"
+      },
+      {
+        "participantId": "150630",
+        "sex": "M"
+      },
+      {
+        "participantId": "150915",
+        "sex": "F"
+      },
+      {
+        "participantId": "150917",
+        "sex": "F"
+      },
+      {
+        "participantId": "151015",
+        "sex": "M"
+      },
+      {
+        "participantId": "160303",
+        "sex": "F"
+      },
+      {
+        "participantId": "160304",
+        "sex": "F"
+      },
+      {
+        "participantId": "160811",
+        "sex": "F"
+      },
+      {
+        "participantId": "160812",
+        "sex": "F"
+      },
+      {
+        "participantId": "160825",
+        "sex": "F"
+      },
+      {
+        "participantId": "161202",
+        "sex": "F"
+      },
+      {
+        "participantId": "170516",
+        "sex": "M"
+      },
+      {
+        "participantId": "170823",
+        "sex": "F"
+      },
+      {
+        "participantId": "170915",
+        "sex": "F"
+      },
+      {
+        "participantId": "171102",
+        "sex": "F"
+      },
+      {
+        "participantId": "171215",
+        "sex": "F"
+      },
+      {
+        "participantId": "180214",
+        "sex": "M"
+      },
+      {
+        "participantId": "180216",
+        "sex": "F"
+      },
+      {
+        "participantId": "180822",
+        "sex": "F"
+      },
+      {
+        "participantId": "180928",
+        "sex": "M"
+      },
+      {
+        "participantId": "181017",
+        "sex": "M"
+      },
+      {
+        "participantId": "181109",
+        "sex": "F"
+      },
+      {
+        "participantId": "181214",
+        "sex": "F"
+      },
+      {
+        "participantId": "190329",
+        "sex": "M"
+      },
+      {
+        "participantId": "190813",
+        "sex": "M"
+      },
+      {
+        "participantId": "190904",
+        "sex": "M"
+      },
+      {
+        "participantId": "191016",
+        "sex": "F"
+      },
+      {
+        "participantId": "191128",
+        "sex": "F"
+      },
+      {
+        "participantId": "191129",
+        "sex": "F"
+      },
+      {
+        "participantId": "191206",
+        "sex": "M"
+      },
+      {
+        "participantId": "191212",
+        "sex": "F"
+      },
+      {
+        "participantId": "191213",
+        "sex": "M"
+      },
+      {
+        "participantId": "200122",
+        "sex": "F"
+      },
+      {
+        "participantId": "200123",
+        "sex": "F"
+      },
+      {
+        "participantId": "200211",
+        "sex": "F"
+      },
+      {
+        "participantId": "200218",
+        "sex": "F"
+      },
+      {
+        "participantId": "200219",
+        "sex": "M"
+      },
+      {
+        "participantId": "200227",
+        "sex": "F"
+      },
+      {
+        "participantId": "200303",
+        "sex": "F"
+      },
+      {
+        "participantId": "200520",
+        "sex": "M"
+      },
+      {
+        "participantId": "200521",
+        "sex": "M"
+      },
+      {
+        "participantId": "200603",
+        "sex": "F"
+      },
+      {
+        "participantId": "200604",
+        "sex": "M"
+      },
+      {
+        "participantId": "200609",
+        "sex": "F"
+      },
+      {
+        "participantId": "200619",
+        "sex": "F"
+      },
+      {
+        "participantId": "200625",
+        "sex": "F"
+      },
+      {
+        "participantId": "200702",
+        "sex": "F"
+      },
+      {
+        "participantId": "200703",
+        "sex": "M"
+      },
+      {
+        "participantId": "200708",
+        "sex": "M"
+      },
+      {
+        "participantId": "200729",
+        "sex": "M"
+      },
+      {
+        "participantId": "200825",
+        "sex": "F"
+      },
+      {
+        "participantId": "200828",
+        "sex": "M"
+      },
+      {
+        "participantId": "200925",
+        "sex": "F"
+      },
+      {
+        "participantId": "201007",
+        "sex": "M"
+      },
+      {
+        "participantId": "201009",
+        "sex": "F"
+      },
+      {
+        "participantId": "201013",
+        "sex": "F"
+      },
+      {
+        "participantId": "201016",
+        "sex": "M"
+      },
+      {
+        "participantId": "201201",
+        "sex": "M"
+      },
+      {
+        "participantId": "201202",
+        "sex": "M"
+      },
+      {
+        "participantId": "210115",
+        "sex": "F"
+      },
+      {
+        "participantId": "210210",
+        "sex": "F"
+      },
+      {
+        "participantId": "210512",
+        "sex": "F"
+      },
+      {
+        "participantId": "210609",
+        "sex": "F"
+      },
+      {
+        "participantId": "210615",
+        "sex": "M"
+      },
+      {
+        "participantId": "210827",
+        "sex": "M"
+      },
+      {
+        "participantId": "211021",
+        "sex": "M"
+      },
+      {
+        "participantId": "211214",
+        "sex": "M"
+      },
+      {
+        "participantId": "220125",
+        "sex": "F"
+      },
+      {
+        "participantId": "220218",
+        "sex": "M"
+      },
+      {
+        "participantId": "220303",
+        "sex": "F"
+      },
+      {
+        "participantId": "220505",
+        "sex": "M"
+      },
+      {
+        "participantId": "220512",
+        "sex": "M"
+      },
+      {
+        "participantId": "220622",
+        "sex": "M"
+      },
+      {
+        "participantId": "220812",
+        "sex": "F"
+      },
+      {
+        "participantId": "220830",
+        "sex": "M"
+      },
+      {
+        "participantId": "230125",
+        "sex": "F"
+      },
+      {
+        "participantId": "230418",
+        "sex": "M"
+      },
+      {
+        "participantId": "230420",
+        "sex": "F"
+      },
+      {
+        "participantId": "230817",
+        "sex": "F"
+      },
+      {
+        "participantId": "230822",
+        "sex": "M"
+      }
+    ],
+    "tasks": [],
+    "modalities": [],
+    "secondaryModalities": [],
+    "totalFiles": 656,
+    "size": 2524138,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [],
+    "schemaVersion": "1.3.0-dev"
+  }
+}
